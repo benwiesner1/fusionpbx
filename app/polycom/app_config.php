@@ -183,5 +183,12 @@
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Polycom log upload. 0=Disabled - 1=Enabled.";
 		$y++;
-
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "49923c2c-91b7-49f5-821f-b2ab5a25023d";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "provision";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "polycom_contact_list_readonly";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "numeric";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Polycom Contact List Read Only 0=Disabled - 1=Enabled.";
+		$y++;
 ?>
